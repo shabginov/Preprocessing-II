@@ -1,1 +1,32 @@
 // Navigation Styles here
+section.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // border: 1px solid brown;
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.text-area {
+        // border: solid 1px green;
+        // margin: 1%;
+        // padding: 1%;
+    }
+
+    nav {
+        // border: solid 1px yellow;
+        display: flex;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            padding: 10px;
+            margin: 3px;
+            font-size: 20px;
+            color: @shark;
+        }
+    }
+}
